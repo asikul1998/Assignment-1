@@ -132,6 +132,8 @@ color: black;
     height: 500px;
     margin-right: 5px;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
 
 }
 .sec-three-p-1>img{padding-top: o;
