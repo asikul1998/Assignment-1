@@ -2,16 +2,17 @@ body{font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Mono', monospace;
 margin: 0;
 padding: 0;
-box-sizing: border-box;
 }
 #header{background:linear-gradient(rgba(214, 188, 94, 0.8),rgba(80, 188, 181, 0.8)),url(images/donation0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 500px;
     padding: 15px;
     margin: 0;
     border: solid orange 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     
 
 }
@@ -24,9 +25,10 @@ box-sizing: border-box;
 div>p{
     color:#ffff;
     padding: 5px;
-    margin: 15px;
+    margin: 30px;
 
 }
+
 #header>.button{text-decoration: none;
 text-align: center;
 padding-left: 15px;
@@ -36,6 +38,80 @@ padding-bottom: 5px;
 background-image:linear-gradient(rgba(221, 146, 6, 0.625),rgba(159, 29, 105, 0.684) );
 border-radius: 5px;
 color: #ffff;
-max-resolution: 0 ,auto;
+display: inline;
+
+}  
+/* section-2 */
+
+h2{text-align: center;
+padding: 4px;
+font-size: 38;
+color: black;
+margin: 20px;}
+.discrp{text-align: center;
+    padding: 20px;
+    border: solid 2px #ffff;
+    margin-bottom: 18px;
+}
+div{ 
+    background:linear-gradient(rgba(209, 207, 208, 0.8),rgba(251, 246, 249, 0.8));
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+
+}  
+
+div>.dollar{background:linear-gradient(rgba(165, 155, 160, 0.8),rgba(242, 215, 231, 0.8)); 
+width: 200px;
+height: 200px;
+text-align: center;
+margin-right: 13px;
+border-radius: 4px;
+}
+div>#asik{background: linear-gradient(rgba(109, 78, 68, 0.8),rgba(107, 117, 59, 0.8));
+height: 200px;
+width: 200px;
+border-radius: 4px;
+margin-right: 13px;
+}
+div>#asik>a{text-decoration: none;}
+div>.dollar{text-align: center;}
+div>.dollar>a{text-decoration: none;}
+
+
+
+.others{text-align: center;
+padding: 12px;
+}
+.others>small{
+    font-size: 20px;
+    border-bottom: solid 2px black;
+    
+} 
+
+.button-2{text-decoration: none;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image:linear-gradient(rgba(221, 146, 6, 0.625),rgba(159, 29, 105, 0.684) );
+    border-radius: 5px;
+    color: #ffff;
+    display: inline;
 
 }
+
+button-2{
+    text-decoration: none;
+text-align: center;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-image:linear-gradient(rgba(221, 146, 6, 0.625),rgba(159, 29, 105, 0.684) );
+border-radius: 5px;
+color: #ffff;
+}
+
