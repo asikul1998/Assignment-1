@@ -54,9 +54,9 @@ margin: 20px;}
     margin-bottom: 18px;
 }
 div{ 
-    background:linear-gradient(rgba(209, 207, 208, 0.8),rgba(251, 246, 249, 0.8));
     display: flex;
     justify-content:center;
+    background:linear-gradient(rgba(209, 207, 208, 0.8),rgba(251, 246, 249, 0.8));
     align-items: center;
     margin-top: 10px;
 
@@ -74,6 +74,8 @@ height: 200px;
 width: 200px;
 border-radius: 4px;
 margin-right: 13px;
+border: solid 2px 
+orange;
 }
 div>#asik>a{text-decoration: none;}
 div>.dollar{text-align: center;}
@@ -87,6 +89,7 @@ padding: 12px;
 .others>small{
     font-size: 20px;
     border-bottom: solid 2px black;
+    margin-bottom: 18px;
     
 } 
 
@@ -100,18 +103,42 @@ padding: 12px;
     border-radius: 5px;
     color: #ffff;
     display: inline;
+    margin: 15px;
 
 }
 
-button-2{
-    text-decoration: none;
-text-align: center;
-padding-left: 15px;
-padding-right: 15px;
-padding-top: 5px;
-padding-bottom: 5px;
-background-image:linear-gradient(rgba(221, 146, 6, 0.625),rgba(159, 29, 105, 0.684) );
-border-radius: 5px;
-color: #ffff;
+/* section-3 */
+
+.food-sec{text-align: center;
+font-size: 38px;
+padding: 4px;
+color: black;
+
 }
+.food-para{
+    text-align: center;
+}
+
+.sec-three-p{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    background:linear-gradient(rgba(209, 207, 208, 0.8),rgba(251, 246, 249, 0.8));
+    align-items: center;
+}
+ 
+.sec-three-p-1{background:linear-gradient(rgba(112, 105, 109, 0.8),rgba(191, 154, 176, 0.8));
+    width: 500px;
+    height: 500px;
+    margin-right: 5px;
+    border-radius: 4px;
+
+}
+.sec-three-p-1>img{padding-top: o;
+}
+
+
+
+
+
 
